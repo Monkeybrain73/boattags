@@ -7,13 +7,13 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"leather": [16,16]
+		"strap": [16,16]
 	},
 	"textures": {
-		"leather": "block/leather/plain",
+		"strap": "block/leather/plain",
 		"iron1": "block/metal/sheet-plain/iron1",
 		"tinbronze1": "block/metal/sheet-plain/tinbronze1",
-		"rustyglow": "entity/humanoid/seraphclothes/neck/gem/topaz"
+		"topaz": "entity/humanoid/seraphclothes/neck/gem/topaz"
 	},
 	"elements": [
 		{
@@ -46,11 +46,11 @@
 							"rotationOrigin": [ 0.8, 0.0, -0.1 ],
 							"rotationY": -45.0,
 							"faces": {
-								"north": { "texture": "#leather", "uv": [ 2.0, 3.0, 2.5, 3.5 ] },
-								"east": { "texture": "#leather", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"south": { "texture": "#leather", "uv": [ 11.5, 2.0, 12.0, 2.5 ] },
-								"up": { "texture": "#leather", "uv": [ 5.5, 4.0, 6.0, 4.5 ] },
-								"down": { "texture": "#leather", "uv": [ 2.5, 15.0, 3.0, 15.5 ] }
+								"north": { "texture": "#strap", "uv": [ 2.0, 3.0, 2.5, 3.5 ] },
+								"east": { "texture": "#strap", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#strap", "uv": [ 11.5, 2.0, 12.0, 2.5 ] },
+								"up": { "texture": "#strap", "uv": [ 5.5, 4.0, 6.0, 4.5 ] },
+								"down": { "texture": "#strap", "uv": [ 2.5, 15.0, 3.0, 15.5 ] }
 							}
 						},
 						{
@@ -72,12 +72,12 @@
 									"to": [ 0.6, 0.3, 0.6 ],
 									"rotationOrigin": [ 0.4, 0.2, 0.4 ],
 									"faces": {
-										"north": { "texture": "#rustyglow", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-										"east": { "texture": "#rustyglow", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-										"south": { "texture": "#rustyglow", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-										"west": { "texture": "#rustyglow", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-										"up": { "texture": "#rustyglow", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-										"down": { "texture": "#rustyglow", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+										"north": { "texture": "#topaz", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"east": { "texture": "#topaz", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"south": { "texture": "#topaz", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"west": { "texture": "#topaz", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"up": { "texture": "#topaz", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"down": { "texture": "#topaz", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
 									}
 								}
 							]
@@ -101,11 +101,11 @@
 							"to": [ 0.9, 0.4, 0.9 ],
 							"rotationOrigin": [ 0.6, 0.2, 0.6 ],
 							"faces": {
-								"north": { "texture": "#rustyglow", "uv": [ 5.5, 4.0, 6.0, 4.5 ] },
-								"east": { "texture": "#rustyglow", "uv": [ 11.5, 4.0, 12.0, 4.5 ] },
-								"south": { "texture": "#rustyglow", "uv": [ 10.5, 15.0, 11.0, 15.5 ] },
-								"west": { "texture": "#rustyglow", "uv": [ 13.5, 11.5, 14.0, 12.0 ] },
-								"up": { "texture": "#rustyglow", "uv": [ 0.0, 0.5, 0.5, 1.0 ] }
+								"north": { "texture": "#topaz", "uv": [ 5.5, 4.0, 6.0, 4.5 ] },
+								"east": { "texture": "#topaz", "uv": [ 11.5, 4.0, 12.0, 4.5 ] },
+								"south": { "texture": "#topaz", "uv": [ 10.5, 15.0, 11.0, 15.5 ] },
+								"west": { "texture": "#topaz", "uv": [ 13.5, 11.5, 14.0, 12.0 ] },
+								"up": { "texture": "#topaz", "uv": [ 0.0, 0.5, 0.5, 1.0 ] }
 							}
 						},
 						{
@@ -150,10 +150,10 @@
 			"rotationY": 90.0,
 			"rotationZ": 90.0,
 			"faces": {
-				"north": { "texture": "#leather", "uv": [ 5.5, 4.0, 7.0, 4.5 ] },
-				"south": { "texture": "#leather", "uv": [ 2.5, 4.0, 4.0, 4.5 ] },
-				"west": { "texture": "#leather", "uv": [ 5.5, 13.5, 6.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
-				"up": { "texture": "#leather", "uv": [ 0.0, 9.0, 1.5, 9.5 ] }
+				"north": { "texture": "#strap", "uv": [ 5.5, 4.0, 7.0, 4.5 ] },
+				"south": { "texture": "#strap", "uv": [ 2.5, 4.0, 4.0, 4.5 ] },
+				"west": { "texture": "#strap", "uv": [ 5.5, 13.5, 6.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#strap", "uv": [ 0.0, 9.0, 1.5, 9.5 ] }
 			},
 			"children": [
 				{

@@ -2,177 +2,545 @@
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face1" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face1"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat1" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat1"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face2" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face2"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat2" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat2"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face3" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face3"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat3" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat3"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face4" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face4"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat4" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat4"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face5" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face5"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat5" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat5"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face6" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face6"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat6" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat6"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face7" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face7"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat7" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat7"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face8" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face8"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat8" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat8"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face9" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face9"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat9" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat9"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face10" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face10"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat10" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat10"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face11" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face11"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat11" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat11"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face12" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face12"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat12" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat12"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face13" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face13"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat13" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat13"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face14" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face14"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat14" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat14"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face15" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face15"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat15" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat15"
+		}
 	},
 	{
 		"enabled": true,
 		"ingredientPattern": "A",
-		"ingredients":{
-			"A": { "type": "item", "code": "game:hoovedwearables-face-face16" }
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:hoovedwearables-face-face16"
+			}
 		},
 		"width": 1,
 		"height": 1,
 		"shapeless": true,
-		"output": { "type": "item", "code": "boattags:boattags-medalion-boat16" }
+		"output": {
+			"type": "item",
+			"code": "boattags:boattags-medalion-boat16"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat1"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face1"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat2"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face2"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat3"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face3"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat4"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face4"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat5"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face5"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat6"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face6"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat7"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face7"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat8"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face8"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat9"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face9"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat10"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face10"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat11"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face11"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat12"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face12"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat13"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face13"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat14"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face14"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat15"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face15"
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "A",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "boattags:boattags-medalion-boat16"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:hoovedwearables-face-face16"
+		}
 	}
 ]

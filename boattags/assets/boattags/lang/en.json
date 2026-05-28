@@ -15,7 +15,9 @@
 	"boattags:item-boattags-medalion-boat14": "Boat tag (Star)",
 	"boattags:item-boattags-medalion-boat15": "Boat tag (Crown)",
 	"boattags:item-boattags-medalion-boat16": "Boat tag (Stiletto)",
-	
-	"game:*-selectionbox-MedalionFP": "Boat tag"
-	
+
+	"game:*-selectionbox-MedalionFP": "Boat tag",
+	"creature-shipwright:*-selectionbox-MedalionFP": "Boat tag",
+	"creature-vsairshipmod:*-selectionbox-MedalionFP": "Boat tag"
+
 }

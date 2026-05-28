@@ -8,10 +8,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"leather": [16,16]
+		"strap": [16,16]
 	},
 	"textures": {
-		"leather": "block/leather/plain",
+		"strap": "block/leather/plain",
 		"iron1": "block/metal/sheet-plain/iron1",
 		"tinbronze1": "block/metal/sheet-plain/tinbronze1"
 	},
@@ -45,12 +45,12 @@
 							"to": [ 3.2, 0.1, 0.4 ],
 							"rotationOrigin": [ 3.0, 0.0, 0.1 ],
 							"faces": {
-								"north": { "texture": "#leather", "uv": [ 3.0, 13.0, 3.5, 13.5 ] },
-								"east": { "texture": "#leather", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"south": { "texture": "#leather", "uv": [ 6.0, 4.5, 6.5, 5.0 ] },
-								"west": { "texture": "#leather", "uv": [ 10.5, 2.0, 11.0, 2.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"up": { "texture": "#leather", "uv": [ 9.0, 1.5, 9.5, 2.0 ] },
-								"down": { "texture": "#leather", "uv": [ 12.5, 12.0, 13.0, 12.5 ] }
+								"north": { "texture": "#strap", "uv": [ 3.0, 13.0, 3.5, 13.5 ] },
+								"east": { "texture": "#strap", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#strap", "uv": [ 6.0, 4.5, 6.5, 5.0 ] },
+								"west": { "texture": "#strap", "uv": [ 10.5, 2.0, 11.0, 2.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#strap", "uv": [ 9.0, 1.5, 9.5, 2.0 ] },
+								"down": { "texture": "#strap", "uv": [ 12.5, 12.0, 13.0, 12.5 ] }
 							}
 						},
 						{
@@ -153,10 +153,10 @@
 			"rotationY": 90.0,
 			"rotationZ": 90.0,
 			"faces": {
-				"north": { "texture": "#leather", "uv": [ 5.5, 4.0, 7.0, 4.5 ] },
-				"south": { "texture": "#leather", "uv": [ 2.5, 4.0, 4.0, 4.5 ] },
-				"west": { "texture": "#leather", "uv": [ 5.5, 13.5, 6.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
-				"up": { "texture": "#leather", "uv": [ 0.0, 9.0, 1.5, 9.5 ] }
+				"north": { "texture": "#strap", "uv": [ 5.5, 4.0, 7.0, 4.5 ] },
+				"south": { "texture": "#strap", "uv": [ 2.5, 4.0, 4.0, 4.5 ] },
+				"west": { "texture": "#strap", "uv": [ 5.5, 13.5, 6.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#strap", "uv": [ 0.0, 9.0, 1.5, 9.5 ] }
 			},
 			"children": [
 				{

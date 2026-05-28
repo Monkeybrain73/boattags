@@ -15,7 +15,8 @@
 			},
 			"attachedShapeBySlotCodeByType": {
 				"*-medalion-boat*": {
-					"*": { "base": "boat/tags/{category}/{type}" }
+					"boat": { "base": "boat/tags/{category}/{type}" },
+          "canoe": { "base": "canoe/tags/{category}/{type}" }
 				},
 				"*": {
 					"*": { "base": "boat/tags/{category}/{type}" }
@@ -32,10 +33,15 @@
 	"texturesByType": {
 		"*": {
 			"hide": { "base": "game:block/transparent" },
-			"leather": { "base": "game:block/leather/plain" },
+			"strap": { "base": "game:block/leather/plain" },
 			"brass": { "base": "game:block/metal/plate/brass"},
 			"iron1": { "base": "game:block/metal/sheet-plain/iron1" },
-			"tinbronze1": { "base": "game:block/metal/sheet-plain/tinbronze1" }
+			"tinbronze1": { "base": "game:block/metal/sheet-plain/tinbronze1" },
+			"topaz": { "base": "game:entity/humanoid/seraphclothes/neck/gem/topaz" },
+			"ruby": { "base": "game:entity/humanoid/seraphclothes/neck/gem/ruby" },
+			"moonstone": { "base": "game:entity/humanoid/seraphclothes/neck/gem/moonstone" },
+			"aquamarine": { "base": "game:entity/humanoid/seraphclothes/neck/gem/aquamarine" },
+      "pearlpink": { "base": "game:entity/humanoid/seraphclothes/neck/gem/pearlpink" }
 		}
 	},
 	"maxStackSize": 1,
