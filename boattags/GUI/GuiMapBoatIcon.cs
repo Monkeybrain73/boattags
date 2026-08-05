@@ -2,8 +2,6 @@
 {
     public class GuiMapBoatIcon : IconUtil
     {
-        ICoreClientAPI capi;
-
         public GuiMapBoatIcon(ICoreClientAPI capi) : base(capi)
         {
         }
