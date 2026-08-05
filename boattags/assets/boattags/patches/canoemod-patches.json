@@ -1,0 +1,84 @@
+[
+  {
+    "enabled": true,
+    "side": "server",
+    "op": "addmerge",
+    "file": "canoemod:entities/water/barkcanoe.json",
+    "path": "/client/behaviors",
+    "value": [ { "code": "ownable" } ],
+    "dependsOn": [ { "modid": "canoemode" } ]
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "op": "addmerge",
+    "file": "canoemod:entities/water/barkcanoe.json",
+    "path": "/server/behaviors",
+    "value": [ { "code": "ownable" } ],
+    "dependsOn": [ { "modid": "canoemode" } ]
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "op": "addmerge",
+    "file": "canoemod:entities/water/barkcanoe.json",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/canoe-barkcanoe-*",
+    "value": [
+      {
+        "code": "canoe",
+        "forCategoryCodes": [ "boat" ],
+        "attachmentPointCode": "MedalionFP",
+        "emptyInteractPassThrough": true
+      }
+    ],
+    "dependsOn": [ { "modid": "canoemode" } ]
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "op": "addmerge",
+    "file": "canoemod:entities/water/barkcanoe.json",
+    "path": "/behaviorConfigs",
+    "value": { "ownable": { "groupCode": "mountablecanoe" } },
+    "dependsOn": [ { "modid": "canoemode" } ]
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "op": "addmerge",
+    "file": "canoemod:entities/water/barkcanoe.json",
+    "path": "/behaviorConfigs/selectionboxes/selectionBoxesByType/canoe-barrkcanoe-*",
+    "value": [ "MedalionFP" ],
+    "dependsOn": [ { "modid": "canoemode" } ]
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "op": "addmerge",
+    "file": "canoemod:shapes/entity/water/boat/barkcanoe.json",
+    "path": "/elements/0/children/0/children/0/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "MedalionStorage",
+        "from": [ 16.6, 10.71, -0.8 ],
+        "to": [ 19.8, 16.01, 0.6 ],
+        "rotationOrigin": [ 16.6, 10.7, -0.8 ],
+        "rotationY": -7.0,
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "MedalionFP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      }
+    ],
+    "dependsOn": [ { "modid": "canoemode" } ]
+  }
+]

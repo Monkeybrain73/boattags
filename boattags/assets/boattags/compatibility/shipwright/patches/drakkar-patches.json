@@ -1,0 +1,49 @@
+[
+	{
+		"enabled": true,
+		"side": "server",
+		"op": "addmerge",
+		"file": "shipwright:entities/nonliving/drakkar.json",
+		"path": "/client/behaviors",
+		"value": [{ "code": "ownable" }]
+	},
+	{
+		"enabled": true,
+		"side": "server",
+		"op": "addmerge",
+		"file": "shipwright:entities/nonliving/drakkar.json",
+		"path": "/server/behaviors",
+		"value": [{ "code": "ownable" }]
+	},
+	{
+		"enabled": true,
+		"side": "server",
+		"op": "addmerge",
+		"file": "shipwright:entities/nonliving/drakkar.json",
+		"path": "/behaviorConfigs/rideableaccessories/wearableSlots",
+		"value": [
+				{
+					"code": "boat",
+					"forCategoryCodes": ["boat"],
+					"attachmentPointCode": "MedalionFP",
+					"emptyInteractPassThrough": true
+				}
+		]
+	},
+	{
+		"enabled": true,
+		"side": "server",
+		"op": "addmerge",
+		"file": "shipwright:entities/nonliving/drakkar.json",
+		"path": "/behaviorConfigs",
+		"value": { "ownable": { "groupCode": "mountableboat" } }
+	},
+	{
+		"enabled": true,
+		"side": "server",
+		"op": "addmerge",
+		"file": "shipwright:entities/nonliving/drakkar.json",
+		"path": "/behaviorConfigs/selectionboxes/selectionBoxes",
+		"value": ["MedalionFP"]
+	}
+]
