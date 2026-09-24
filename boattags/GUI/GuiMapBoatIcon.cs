@@ -2,11 +2,11 @@
 {
     public class GuiMapBoatIcon : IconUtil
     {
-<<<<<<< HEAD
+        // <<<<<<< HEAD
         ICoreClientAPI capi;
 
-=======
->>>>>>> d9d08193ffe23cd940d75171a78acc3598bff667
+        // =======
+        // >>>>>>> d9d08193ffe23cd940d75171a78acc3598bff667
         public GuiMapBoatIcon(ICoreClientAPI capi) : base(capi)
         {
         }

@@ -14,4 +14,5 @@ global using Vintagestory.API.Util;
 global using Vintagestory.GameContent;
 global using Vintagestory.API.Common.Entities;
 global using Vintagestory.API;
+global using HarmonyLib;
 

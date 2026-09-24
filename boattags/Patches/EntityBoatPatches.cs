@@ -1,13 +1,5 @@
-using HarmonyLib;
-using Vintagestory.API.Common;
-using Vintagestory.API.Common.Entities;
-using Vintagestory.API.Config;
-using Vintagestory.API.Datastructures;
-using Vintagestory.API.MathTools;
-using Vintagestory.API.Server;
-using Vintagestory.GameContent;
 
-namespace boattags.Patches
+namespace boattags
 {
     /// <summary>
     /// Patches CollectibleBehaviorEntityDeconstructTool.OnHeldInteractStart the actual entry

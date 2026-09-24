@@ -1,29 +1,13 @@
 {
-<<<<<<< HEAD
-  "type": "content",
-=======
   "type": "code",
->>>>>>> d9d08193ffe23cd940d75171a78acc3598bff667
   "modid": "boattags",
   "name": "Boat Tags",
   "description": "Put a tag on your boat, to track it's position in the world",
   "authors": [ "xXx_Ape_xXx" ],
-<<<<<<< HEAD
-  "contributors": [ "" ],
-  "side": "Universal",
-  "requiredOnClient": true,
-  "requiredOnServer": true,
-  "version": "1.2.2",
-  "dependencies": {
-    "game": "1.22.0"
-=======
   "contributors": [ "Lady_Regna" ],
   "side": "Universal",
   "requiredOnClient": true,
   "requiredOnServer": true,
   "version": "1.2.3",
-  "dependencies": {
-    "game": "1.22.6"
->>>>>>> d9d08193ffe23cd940d75171a78acc3598bff667
-  }
+  "dependencies": { "game": "1.22.6" }
 }

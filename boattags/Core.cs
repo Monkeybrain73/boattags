@@ -1,41 +1,11 @@
-using HarmonyLib;
-using Vintagestory.API.Client;
-using Vintagestory.API.Common;
-using Vintagestory.API.Config;
-using Vintagestory.API.Server;
 
->>>>>>> d9d08193ffe23cd940d75171a78acc3598bff667
 namespace boattags
 {
     public sealed class Core : ModSystem
     {
-<<<<<<< HEAD
 
-        public override void Start(ICoreAPI api)
-        {
-            base.Start(api);
-        }
+        private Harmony _harmony;
 
-        public override void StartServerSide(ICoreServerAPI api)
-        {
-            base.StartServerSide(api);
-        }
-
-        public override void StartClientSide(ICoreClientAPI api)
-        {
-            base.StartClientSide(api);
-        }
-
-        public override void Dispose()
-        {
-            base.Dispose();
-
-        }
-=======
-        private Harmony? _harmony;
-
-        // Called on server and client
-        // Useful for registering block/entity classes on both sides
         public override void Start(ICoreAPI api)
         {
             _harmony = new Harmony("boattags_deconstruct_protect");
@@ -51,7 +21,7 @@ namespace boattags
 
         public override void StartServerSide(ICoreServerAPI api)
         {
-            api.Logger.Notification("Server Loaded " + Lang.Get("boattags:hello"));
+            api.Logger.Notification("Server Loaded: " + Lang.Get("boattags:hello"));
              base.StartServerSide(api);
         }
 
@@ -61,6 +31,5 @@ namespace boattags
             base.StartClientSide(api);
         }
 
->>>>>>> d9d08193ffe23cd940d75171a78acc3598bff667
     }
 }

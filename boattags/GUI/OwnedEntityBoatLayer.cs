@@ -1,6 +1,4 @@
 ﻿
-using Cairo;
-
 namespace boattags
 {
     internal class OwnedEntityBoatMapLayer : MarkerMapLayer
